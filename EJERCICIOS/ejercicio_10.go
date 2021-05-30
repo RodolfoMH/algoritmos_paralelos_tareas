@@ -17,9 +17,9 @@ func generarRandon(posicion string, rango int) {
 	cola.Done()
 }
 
+//generar cada numero del loto de forma asincrona usando numeros randon
 func main() {
 
-	//generar loto randon asincrono
 	fmt.Println("Los 7 numeros ganadores son: ")
 
 	cola.Add(7)

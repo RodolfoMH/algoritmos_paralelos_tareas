@@ -2,16 +2,14 @@ package main
 
 import (
 	"fmt"
-	//"sync"
 )
 
 func print(str string) {
 	fmt.Println(str)
 }
 
+//Sumna o resta 2 o mas arrays de forma secuencial
 func main() {
-
-	//sumar un numero a cada elemento de un array
 
 	array1 := [10]int{2, 3, 6, 7, 8, 1, 23, 34, 4, 5}
 	array2 := [10]int{5, 4, 34, 23, 1, 8, 7, 6, 3, 2}

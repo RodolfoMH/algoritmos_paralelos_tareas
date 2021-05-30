@@ -9,9 +9,8 @@ func print(str string) {
 	fmt.Println(str)
 }
 
+//buscar el mayor en el array de forma secuencial usando el metodo de la burbuja
 func main() {
-
-	//buscar el mayor por izquierda y derecha
 
 	print("Buscando el mayor en: ")
 

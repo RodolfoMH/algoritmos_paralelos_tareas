@@ -22,6 +22,9 @@ func sumarRango(desde int, hasta int) int {
 	return suma
 }
 
+//Realiza la suma de un rango de numeros desde x hasta y, para esto divide el rango en 4 partes
+//las cuales se suman de forma separadas en diferentes rutinas para luego unir los resultados agilizando asi por 4 la velocidad
+// en la realizacion de dicha suma.
 func main() {
 
 	var desde int

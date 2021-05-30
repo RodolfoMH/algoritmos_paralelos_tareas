@@ -50,9 +50,8 @@ func buscarDer(array [10]int) {
 	}
 }
 
+//buscar el mayor numero en el arreglo para esto lo divide en 2 partes y comeinza a recorrerlo por izquierda y derecha hasta terminar en la mitad
 func main() {
-
-	//buscar el mayor por izquierda y derecha
 
 	print("Buscando el mayor en: ")
 

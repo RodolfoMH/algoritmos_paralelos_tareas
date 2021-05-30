@@ -22,6 +22,7 @@ func sumarRango(desde int, hasta int) int {
 	return suma
 }
 
+//Realiza una suma con todos los numeros desde el rango x hasta el y, de forma secuencial
 func main() {
 
 	var desde int

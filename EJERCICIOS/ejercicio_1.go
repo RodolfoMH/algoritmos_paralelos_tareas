@@ -8,6 +8,7 @@ func print(str string) {
 	fmt.Println(str)
 }
 
+//Imprime un grupo de mensajes de forma asincrona
 func main() {
 
 	go print("Hola 1")

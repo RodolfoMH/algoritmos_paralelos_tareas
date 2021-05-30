@@ -13,6 +13,7 @@ func rutina(str string) {
 	}
 }
 
+//Imprime un secuencias de mensajes de contros desde diferentes rutinas de manera simultanea
 func main() {
 
 	go rutina("rutina 1: ")

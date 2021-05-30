@@ -13,9 +13,9 @@ func rutina(str string) {
 		fmt.Println(str, i)
 	}
 	cola.Done()
-
 }
 
+//Ejecuta 3 tareas de forma concurrente pero una vez que una de ellas inicia las otras se bloan hasta que esta termine imprmiendo un mensaje desde el punto de contro de cada rutina
 func main() {
 
 	cola.Add(3)
