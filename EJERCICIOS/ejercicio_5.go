@@ -2,15 +2,13 @@ package main
 
 import (
 	"fmt"
-	//"sync"
 )
 
 func print(str string) {
 	fmt.Println(str)
 }
 
-//var cola sync.WaitGroup
-
+//Metodo que realiza la sumattoria de todos los numeros dentro de un rango dado
 func sumarRango(desde int, hasta int) int {
 
 	var suma int
@@ -22,7 +20,6 @@ func sumarRango(desde int, hasta int) int {
 	return suma
 }
 
-//Realiza una suma con todos los numeros desde el rango x hasta el y, de forma secuencial
 func main() {
 
 	var desde int
@@ -30,6 +27,7 @@ func main() {
 
 	var total int
 
+	//Realiza una suma con todos los numeros desde el rango x hasta el y, de forma secuencial
 	print("Ingrese el rango de la suma secuencial. ")
 	print(" desde => ")
 	fmt.Scanln(&desde)
